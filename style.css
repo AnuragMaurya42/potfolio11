@@ -1,0 +1,273 @@
+/*  CSS for Navigation Bar  are here */
+.grid-container {
+
+    margin-left: 90px;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    /* background-color: #2f2f2f; */
+    background: linear-gradient(0.25turn, #232d2a, #3e4d3e);
+    padding: 10px;
+}
+
+.grid-container>div {
+    background: linear-gradient(0.25turn, #e5ab3f, #3e4d3e);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+
+}
+
+.item1 {
+    grid-row: 1 / 10;
+}
+
+body {
+    /* background: #333232; */
+    background: linear-gradient(0.25turn, #232d2a, #3e4d3e);
+}
+
+.navbar {
+
+    background: linear-gradient(0.75turn, #94ffdf, #568956);
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* background: #818eed; */
+    color: white;
+    height: 19px;
+}
+
+.navbar img {
+    height: 50px;
+}
+
+.navbar a {
+    color: aliceblue;
+    text-decoration: none;
+    /* background-color: blueviolet; */
+
+}
+
+/* top of the page */
+.top {
+    color: antiquewhite;
+    background-color: #8d6463a1;
+    height: 300px;
+    width: 100%;
+}
+
+.top img {
+    margin-bottom: -7px;
+    height: 300px;
+}
+
+.tt {
+    margin: -33px -35px;
+    text-align: left;
+
+}
+
+.tt h1 {
+    color: #930000;
+}
+
+.tt pre {
+    font-size: xx-large;
+    color: black;
+
+}
+
+.t1 {
+    height: 417px;
+    border-radius: 52px 10px;
+    border-spacing: 50px 0px;
+    margin-top: 107px;
+    width: 94%;
+    /* background: #959595; */
+    min-block-size: max-content;
+    background: linear-gradient(0.5turn, #232d2a, #3e4d3e);
+    margin-left: 5%;
+    margin-right: 15%;
+}
+
+.lg img {
+    width: 91px;
+    margin: 0px 25%;
+    height: 100px;
+    mix-blend-mode: multiply;
+}
+
+.project img {
+    width: 75%;
+    height: 100px;
+}
+
+
+
+.project {
+
+    width: 100%;
+    max-width: 600px;
+    /* Set a maximum width for responsiveness */
+    border-collapse: collapse;
+
+}
+
+.project td {
+
+    padding: 20px;
+    text-align: center;
+    /* border: 1px solid #ddd; */
+}
+
+.project img {
+
+    max-width: 100%;
+    height: auto;
+}
+
+.pp {
+    font-size: xx-large;
+    color: #9bff00;
+    align-items: center;
+    justify-content: center;
+    /* align-items: center; */
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+/* Responsive code are written bellow */
+/* Mobile Styles */
+@media only screen and (max-width: 900px) {
+    body {
+        zoom: 100%;
+        height: 1480px;
+        width: 537px;
+        background: linear-gradient(0.5turn, #3cff3c, #eeffaf);
+    }
+
+    .navbar {
+        height: 270px;
+        width: 215%;
+    }
+
+    .navbar a {
+        font-size: xx-large;
+        color: aliceblue;
+        text-decoration: none;
+    }
+
+    .navbar img {
+        height: 130px;
+    }
+
+    .top {
+        width: 215%;
+        height: 800px;
+    }
+
+    .top img {
+        height: 1513px;
+        padding: 44px 43px;
+        margin: 0px -157px;
+    }
+
+    .tt {
+        border-radius: 40px;
+    height: 337px;
+    font-size: xx-large;
+    background: linear-gradient(0.5turn, #5cffce, #8b65ff);
+    font-size: x-large;
+    margin: 28px -20px;
+    text-align: left;
+    }
+
+    .tt pre {
+        font-size: xx-large;
+    }
+
+    .tt h5 {
+        font-size: xxx-large;
+    }
+
+    .tt button {
+        font-size: xx-large;
+        background: linear-gradient(0.5turn, #ff1414, #f553c2);
+        height: 105px;
+        /* background-color: #94c72a; */
+        width: 174px;
+        border-radius: 21px;
+        margin: -22px 201px
+    }
+
+.t1 {
+    height: 417px;
+    border-radius: 52px 10px;
+    border-spacing: 50px 0px;
+    margin-top: 107px;
+    width: 208%;
+    /* background: #959595; */
+    min-block-size: max-content;
+    background: linear-gradient(0.5turn, #ffd331, #b9c2f3);
+    margin-left: 5%;
+    margin-right: 15%;
+}
+
+.grid-container {
+    width: 638px;
+    height: 537px;
+    margin-left: 228px;
+    margin-top: 214px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    /* background-color: #2f2f2f; */
+    background: linear-gradient(0.5turn, #b6ffe9, #f3be8f);
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+.pp {
+    margin: 169px;
+    height: 383px;
+    width: 154%;
+    font-size: xx-large;
+    color: #9bff00;
+}
+
+.btn {
+    width: 137px;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    height: 76px;
+    border-radius: 32px;
+    shape-rendering: 103px;
+}
+
+.fe {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    background: linear-gradient(0.5turn , #4aefbe,#3e4d3e);
+}
+
+.project img {
+    border-radius: 92px 20px;
+    margin: 12px 13px;
+    width: 414px;
+    max-width: max-content;
+    height: 322px;
+}
+}
